@@ -1,0 +1,32 @@
+body {
+  background: rgb(93, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(93, 58, 180, 1) 0%,
+    rgba(29, 253, 243, 1) 50%,
+    rgba(167, 69, 252, 1) 100%
+  );
+}
+.cards {
+  background-color: lightcoral;
+}
+.page-title {
+  display: block !important;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.form-container {
+  width: 400px !important;
+  margin: auto !important;
+}
+
+.register-btn {
+  margin-top: 10px;
+}
+
+.ui.teal.button:focus,
+.ui.teal.buttons .button:focus {
+  background-color: #00b5ad;
+}
